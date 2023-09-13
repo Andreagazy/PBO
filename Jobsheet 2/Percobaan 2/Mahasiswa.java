@@ -1,5 +1,5 @@
 public class Mahasiswa{
-    public int nim;
+    public int nim; //+62 857-3360-9735
     public String nama;
     public String alamat;
     public String kelas;
