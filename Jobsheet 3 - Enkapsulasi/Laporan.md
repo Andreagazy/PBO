@@ -422,6 +422,9 @@ public class EncapDemo {//Andreagazy Iza Amerianto
 
 <br><b>EncapTest.java</b>
 
+<br><b>Class EncapTest</b>
+<br><img src="img/Tugas1_UMLClass.png">
+
 ```java
 package Tugas.Tugas1;
 
@@ -491,6 +494,7 @@ public class EncapTest {
 4. Pada sebuah sistem informasi koperasi simpan pinjam, terdapat class Anggota yang memiliki atribut antara lain nomor KTP,nama, limit peminjaman, dan jumlah pinjaman. Anggota dapat meminjam uang dengan batas limit peminjaman yang ditentukan. Anggota juga dapat mengangsur pinjaman. Ketika Anggota tersebut mengangsur pinjaman, maka jumlah pinjaman akan berkurang sesuai dengan nominal yang diangsur. Buatlah class Anggota tersebut, berikan atribut, method dan konstruktor sesuai dengan kebutuhan. Uji dengan TestKoperasi berikut ini untuk memeriksa apakah class Anggota yang anda buat telah sesuai dengan yang diharapkan.
 
 <b>Class Anggota</b>
+<br><img src="img/Tugas4_UMLClass.png">
 
 ```java
 package Tugas.Tugas4;
