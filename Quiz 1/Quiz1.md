@@ -1,7 +1,7 @@
 ## Quiz 1
 ### Nama : Andreagazy Iza Amerianto
 ### NIM : 2241720146
-### Kelas : TI-2C/03
+### Kelas : TI-2C/05
 
 #### Class dan Objek
 1. Apa yang dimaksud dengan "class" dalam pemrograman berorientasi objek?<br>Class pada pemrograman berbasis objek adalah sebuah prototype atau blueprint dari sebuah objek yang didalamnya terdalat atribut dan method.
