@@ -12,11 +12,6 @@ public class TugasMain {
         Mahasiswa mhs4 = new Mahasiswa("2241720024","Mira", "Teknologi Informasi", "Teknik Informatika");
         Mahasiswa mhs5 = new Mahasiswa("2241720105","Alice", "Teknologi Informasi", "Teknik Informatika");
 
-        mhs1.tambahMK(mk1,mk2,mk3);
-        mhs2.tambahMK(mk1,mk2,mk3);
-        mhs3.tambahMK(mk1,mk2,mk3);
-        mhs4.tambahMK(mk1,mk2,mk3);
-        mhs5.tambahMK(mk1,mk2,mk3);
         
         // mhs1.tampilData();
 

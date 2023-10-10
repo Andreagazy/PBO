@@ -5,7 +5,7 @@ import java.util.List;
 
 public class Mahasiswa {
     private String nim, nama, jurusan, prodi;
-    private List <MataKuliah> mk;
+    // private List <MataKuliah> mk;
     public Mahasiswa() {
 
     }
@@ -50,12 +50,12 @@ public class Mahasiswa {
         return prodi;
     }
 
-    public void tambahMK(MataKuliah ...mk){
-        for (int i = 0; i < mk.length; i++) {
-            this.mk.add(mk[i]);
+    // public void tambahMK(MataKuliah ...mk){
+    //     for (int i = 0; i < mk.length; i++) {
+    //         this.mk.add(mk[i]);
             
-        }
-    }
+    //     }
+    // }
 
     public void tampilData(){
         System.out.println("Nama : "+nama);
@@ -65,10 +65,10 @@ public class Mahasiswa {
         mkDiambil();
     }
 
-    public void mkDiambil(){
-        System.out.println("Mata Kuliah yang Diambil : ");
-        for (int i = 0; i < mk.size(); i++) {
-            System.out.println(i+1 +". "+mk.get(i).getNama());
-        }
-    }
+    // public void mkDiambil(){
+    //     System.out.println("Mata Kuliah yang Diambil : ");
+    //     for (int i = 0; i < mk.size(); i++) {
+    //         System.out.println(i+1 +". "+mk.get(i).getNama());
+    //     }
+    // }
 }
