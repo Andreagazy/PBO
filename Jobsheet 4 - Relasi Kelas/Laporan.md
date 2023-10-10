@@ -783,12 +783,12 @@ public class Mahasiswa {
         return prodi;
     }
 
-    public void tambahMK(MataKuliah ...mk){
-        for (int i = 0; i < mk.length; i++) {
-            this.mk.add(mk[i]);
+    // public void tambahMK(MataKuliah ...mk){
+    //     for (int i = 0; i < mk.length; i++) {
+    //         this.mk.add(mk[i]);
             
-        }
-    }
+    //     }
+    // }
 
     public void tampilData(){
         System.out.println("Nama : "+nama);
@@ -798,12 +798,12 @@ public class Mahasiswa {
         mkDiambil();
     }
 
-    public void mkDiambil(){
-        System.out.println("Mata Kuliah yang Diambil : ");
-        for (int i = 0; i < mk.size(); i++) {
-            System.out.println(i+1 +". "+mk.get(i).getNama());
-        }
-    }
+    // public void mkDiambil(){
+    //     System.out.println("Mata Kuliah yang Diambil : ");
+    //     for (int i = 0; i < mk.size(); i++) {
+    //         System.out.println(i+1 +". "+mk.get(i).getNama());
+    //     }
+    // }
 }
 ```
 
@@ -974,11 +974,7 @@ public class TugasMain {
         Mahasiswa mhs4 = new Mahasiswa("2241720024","Mira", "Teknologi Informasi", "Teknik Informatika");
         Mahasiswa mhs5 = new Mahasiswa("2241720105","Alice", "Teknologi Informasi", "Teknik Informatika");
 
-        mhs1.tambahMK(mk1,mk2,mk3);
-        mhs2.tambahMK(mk1,mk2,mk3);
-        mhs3.tambahMK(mk1,mk2,mk3);
-        mhs4.tambahMK(mk1,mk2,mk3);
-        mhs5.tambahMK(mk1,mk2,mk3);
+ 
         
         // mhs1.tampilData();
 
