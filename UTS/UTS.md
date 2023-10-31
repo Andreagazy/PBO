@@ -21,7 +21,7 @@ public class ClassA {
 
 ```
 
-<br>Jawab : Perlu penambahan return untuk menggembalikan nilai float.
+<br>Jawab : Penulisan kode diatas salah karena method tersebut memiliki tipe data float sehingga perlu penambahan return untuk menggembalikan nilai float. Perbaikan yang dilakukan : 
 <br>
 
 ```java
