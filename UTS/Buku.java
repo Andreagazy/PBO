@@ -29,4 +29,5 @@ public class Buku {
     public void setPenulis(Penulis penulis) {
         this.penulis = penulis;
     }
+
 }
