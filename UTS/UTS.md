@@ -101,6 +101,7 @@ public class ClassY extends Class {
 ```
 
 <br>Jawab : Atribut yang diturunkan Class ke ClassY adalah a dengan nilai 2 dan x dengan nolai 0. Sedangkan method yagng diwariskan adalah method hitung().
+<br>Ketika dilakukan print cy.hitungY() maka nilai yang akan muncul adalah 50. Nilai tersebut didapat dari method hitung() yang diwariskan dari Class yang menghasilkan nilai 10, kemudian masuk pada method hitungY() yang dimana y adalah hasil perkalian nilai method hitung() dan b sehimgga 10 * 5 = 50.
 
 
 ### Soal 4: Class Mahasiswa dengan Constructor
