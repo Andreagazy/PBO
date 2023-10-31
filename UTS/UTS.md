@@ -52,7 +52,9 @@ public class SoalArray1 {
 }
 ```
 
-<br>Jawab :
+<br>Jawab : 
+<br> <img src="img/HasilNo2.png">
+
 <br>
 
 ```java
