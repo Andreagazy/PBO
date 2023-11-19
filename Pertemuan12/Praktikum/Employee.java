@@ -1,0 +1,10 @@
+package Pertemuan12.Praktikum;
+
+public class Employee {
+    protected String name;
+
+    public String getEmployeeInfo(){
+        return "Name = "+name;
+    }
+    
+}
